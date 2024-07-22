@@ -1,0 +1,65 @@
+body{
+    background-image: url(fundo.jpg);
+    color: rgb(255, 255, 255);
+    font-family: "Chakra Petch", sans-serif;
+}
+h2{
+    font-family: "Press Start 2P", system-ui;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0%;
+    position: relative;
+    animation-name: example2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;}
+  @keyframes example2 {
+    0%   {color: white; left:0px; top:0px;}
+    25%  {color: rgba(255, 255, 255, 0.556); left:0px; top:0px;}
+    50%  {color:white; left:0px; top:0px;}
+    75%  {color:rgba(255, 255, 255, 0.578); left:0px; top:0px;}
+    100% {color:white auto; left:0px; top:0px;}}
+
+.container-login {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.323);
+}
+
+/* Estilos do formulário de login */
+#form-login {
+    margin-top: 20px;
+}
+
+#form-login label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#form-login input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #f1f1f10f;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+#form-login input:hover{
+    background-color: white;
+    padding: 15px;
+    width: 85%;
+}
+
+#form-login button {
+    padding: 8px 15px;
+    background-color: #007bff69;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#form-login button:hover{
+    background-color: #007bff;
+    padding: 10px 20px;
+}
